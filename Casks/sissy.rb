@@ -1,13 +1,13 @@
 cask "sissy" do
-  version "0.1.1"
-  sha256 "428eb883b627565866c053ad7729069ab57a7eb6709db6651906be5d3c53e898"
+  version "0.1.2"
+  sha256 "f453e0b466655cd01c983ce42425b7499de2463c3ae655cc9f6fe6c66f63f65c"
 
   url "https://github.com/xsmyile/sissy/releases/download/v#{version}/Sissy-#{version}.dmg"
   name "Sissy"
   desc "Menubar token usage mascot for Claude Code and Codex"
   homepage "https://github.com/xsmyile/sissy"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Sissy.app"
 
