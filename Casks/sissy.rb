@@ -1,10 +1,10 @@
 cask "sissy" do
-  version "0.1.8"
-  sha256 "5445c1fac5be58d854c0ee1c65d98cd4727216f22713deb431c572649766c551"
+  version "0.2.0"
+  sha256 "4ac06bd91a652750d4cfb70eb178909bc655740fe4ebe03401e8ddcccfd31a71"
 
   url "https://github.com/xsmyile/sissy/releases/download/v#{version}/Sissy-#{version}.dmg"
   name "Sissy"
-  desc "Menubar token usage mascot for Claude Code and Codex"
+  desc "Menu bar meter for Claude Code and Codex spend, rate limits and activity"
   homepage "https://github.com/xsmyile/sissy"
 
   depends_on macos: :tahoe
