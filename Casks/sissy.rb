@@ -1,6 +1,6 @@
 cask "sissy" do
-  version "0.2.4"
-  sha256 "3f4ae93e2578c226c529746e7f0269f77e7507b2cd5d85e9cc6cc638ec348931"
+  version "0.2.5"
+  sha256 "841d02d101e0526536158ada8e48aaf06e3ae1655492b18e8290bd7be30e4adc"
 
   url "https://github.com/xsmyile/sissy/releases/download/v#{version}/Sissy-#{version}.dmg"
   name "Sissy"
@@ -8,6 +8,9 @@ cask "sissy" do
   homepage "https://github.com/xsmyile/sissy"
 
   depends_on macos: :tahoe
+  # Sissy updates itself through Sparkle, so Homebrew leaves it to
+  # the app unless asked with --greedy.
+  auto_updates true
 
   app "Sissy.app"
 
