@@ -1,6 +1,6 @@
 cask "sissy" do
-  version "0.3.5"
-  sha256 "170d0bf7c08d7fe8af71ee0c40f668f336623193d2c6eaeedb5ac9d8d4dc7291"
+  version "0.3.6"
+  sha256 "933acabba14df3a4d060dc7c066bebc439e21d17a0615e0bc69d69b2373e9902"
 
   url "https://github.com/xsmyile/sissy/releases/download/v#{version}/Sissy-#{version}.dmg"
   name "Sissy"
